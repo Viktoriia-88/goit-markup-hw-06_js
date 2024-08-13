@@ -109,17 +109,18 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link.studio {
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link.studio::after {
@@ -143,6 +144,7 @@ body {
 }
 
 .address-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link {
@@ -157,7 +159,6 @@ body {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion Header */
 
@@ -203,12 +204,12 @@ body {
     background-color: #4d5ae5;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion Hero */
 
@@ -335,7 +336,7 @@ body {
 }
 
 .team-icon {
-    fill: #fff;
+    fill: #f4f4fd;
 }
 
 .team-link-icons:hover,
@@ -441,8 +442,7 @@ body {
     align-items: baseline;
 }
 
-.footer-container {
-    margin-left: 156px;
+.logo-footer-container {
     margin-right: 120px;
 }
 
@@ -511,12 +511,12 @@ body {
 }
 
 .footer-icon {
-    fill: #fff;
+    fill: #f4f4fd;
 }
 
 .footer-link-icons:hover,
 .footer-link-icons:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
